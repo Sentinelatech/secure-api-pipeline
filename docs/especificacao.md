@@ -1,6 +1,6 @@
 # Especificação — secure-api-pipeline
 
-**Semana:** 25/11 a 01/12/2026
+**Semana:** 28/11 a 04/12/2026
 **Entrega final:** API corrigida + pipeline funcionando + relatório
 
 ## Contexto
@@ -32,10 +32,10 @@ Testar a API de terceiros. Técnicas de ataque fora do seu próprio ambiente.
 
 | Dia | Fase | Entrega do dia |
 |---|---|---|
-| Qua 25/11 | API base com as falhas | API rodando localmente |
-| Qui 26/11 | Explorar e documentar as falhas | Demonstração das três falhas |
-| Sex 27/11 | Corrigir as falhas | Versão corrigida, com diffs |
-| Sáb 28/11 | Pipeline: segredos e estática (dia leve) | gitleaks e Semgrep no Actions |
-| Dom 29/11 | Pipeline: dependências e dinâmico (dia leve) | Trivy e ZAP no Actions |
-| Seg 30/11 | Fazer o pipeline reprovar e aprovar | Execução vermelha e verde registradas |
-| Ter 01/12 | Fechamento | `docs/vulnerabilidades.md`, relatório, README |
+| Sáb 28/11 | API base com as falhas (dia leve) | API rodando localmente |
+| Dom 29/11 | Explorar e documentar as falhas (dia leve) | Demonstração das três falhas |
+| Seg 30/11 | Corrigir as falhas | Versão corrigida, com diffs |
+| Ter 01/12 | Pipeline: segredos e estática | gitleaks e Semgrep no Actions |
+| Qua 02/12 | Pipeline: dependências e dinâmico | Trivy e ZAP no Actions |
+| Qui 03/12 | Fazer o pipeline reprovar e aprovar | Execução vermelha e verde registradas |
+| Sex 04/12 | Fechamento | `docs/vulnerabilidades.md`, relatório, README |
