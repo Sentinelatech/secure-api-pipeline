@@ -33,9 +33,7 @@ Testar a API de terceiros. Técnicas de ataque fora do seu próprio ambiente.
 | Dia | Fase | Entrega do dia |
 |---|---|---|
 | Sex 04/12 | API base com as falhas | API rodando localmente |
-| Sáb 05/12 | Pipeline: segredos e estática (dia leve) | gitleaks e Semgrep no Actions |
-| Dom 06/12 | Pipeline: dependências e dinâmico (dia leve) | Trivy e ZAP no Actions |
-| Seg 07/12 | Explorar e documentar as falhas | Demonstração das três falhas |
-| Ter 08/12 | Corrigir as falhas | Versão corrigida, com diffs |
-| Qua 09/12 | Fazer o pipeline reprovar e aprovar | Execução vermelha e verde registradas |
-| Qui 10/12 | Fechamento | `docs/vulnerabilidades.md`, relatório, README |
+| Seg 07/12 | Explorar e documentar as falhas | As três falhas demonstradas |
+| Ter 08/12 | Corrigir as falhas | Versão corrigida, com os diffs |
+| Qua 09/12 | Pipeline completo no Actions | gitleaks, Semgrep, Trivy e ZAP rodando |
+| Qui 10/12 | Reprovar, aprovar e fechar | Execução vermelha e verde, `docs/vulnerabilidades.md`, README |
